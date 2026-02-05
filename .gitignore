@@ -1,0 +1,21 @@
+# PDF and TeX build files
+*.pdf
+*.aux
+*.log
+*.out
+*.gz
+*.fls
+*.fdb_latexmk
+recovery_cards.tex
+
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+
+# Interactive input history
+.history/
+
+# OS files
+.DS_Store
