@@ -5,8 +5,11 @@ A tool to generate a beautiful, physical recovery card PDF for Proton, Bitwarden
 ## 🛡️ Security
 **IMPORTANT:** Never commit your actual recovery phrases to any repository. This tool is designed to take phrases as command-line arguments or interactive input so they are never saved in the source code.
 
-## 🚀 Usage with Docker
+## � Prerequisites
+- **Docker** installed on your machine.
+- **Logo Files:** Ensure `proton-logo.png`, `bitwarden-logo.png`, and `metamask-logo.png` are in the root directory.
 
+## 🚀 Usage with Docker
 The easiest way to use this is with Docker. It bundles a minimal LaTeX environment.
 
 ### 1. Build the image
@@ -45,7 +48,10 @@ docker run --rm recovery-card \
 The generator produces a credit-card sized layout with:
 - **Proton/Bitwarden Card:** Combined card with brand colors and logos.
 - **MetaMask Card:** Dedicated card with a 12-word grid and brand styling.
-- **Cutting Guides:** Dashed lines to help you cut the cards to size.
+- **Cutting Guides:** Dotted lines to help you cut the cards to standard ID-1 size (85.6mm x 53.98mm).
 
 ## ⚖️ Privacy
 This project runs entirely locally or inside your local Docker container. No data is ever sent to any external server.
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
