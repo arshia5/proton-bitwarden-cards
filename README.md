@@ -1,5 +1,7 @@
 # Recovery Card Generator (Docker)
 
+![Sample Card](sample.png)
+
 A tool to generate a beautiful, physical recovery card PDF for Proton, Bitwarden, and MetaMask without needing to install a full LaTeX distribution locally.
 
 ## 🛡️ Security
